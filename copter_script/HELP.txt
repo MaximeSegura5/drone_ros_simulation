@@ -1,0 +1,7 @@
+copterHandler: all functions possible for the UAV
+
+rospyHandler: basic functions of ROS allowing to communicate with the flight controller
+
+topicService: class used to have only one global class for any communication topic no matter if it's subscribed or published
+
+tests: contains scripts corresponding to the flights we want to run 
