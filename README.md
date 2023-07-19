@@ -26,3 +26,5 @@ After this, you have all the functions that you can use on your drone:
 * set and get param
 * return_to_home (move to the home point you defined and land)
 
+## tests
+
