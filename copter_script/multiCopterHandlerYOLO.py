@@ -46,7 +46,7 @@ class CopterHandler(RosHandler):
         self.detected_objects = []
         self.last_detected_image1 = None
         self.last_detected_image2 = None
-        self.recognition_rate = 
+        self.recognition_rate = 0.5
 
 
         self.TOPIC_STATE = TopicService("/"+name+"/mavros/state", mavros_msgs.msg.State)
